@@ -1,0 +1,266 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+.captionOrange, .captionBlack
+        {
+            color: #fff;
+            font-size: 25px;
+            padding-top:20px;
+            line-height: 20px;
+            text-align: center;
+            border-radius: 10px;
+
+            
+
+        }
+.captionOrange
+{
+     background-color: rgba(249, 86, 86, 0.7);
+     font-family: Arial;
+    
+}
+#custom{
+  background-color: rgb(249, 86, 86);
+  height:70px;
+  margin-top: -19px;
+
+}
+
+#h1{
+  color: white;
+
+}
+#titre1{
+padding-top: 19px;
+
+}
+#titre{
+    font-size: 25px;
+    font-family: Arial;
+    color: rgb(249, 86, 86);
+    margin-left: 138px;
+    position: absolute;
+    z-index: 2;
+    margin-top: 2px;
+    }
+#intro p{
+    position: absolute;
+    z-index: 5;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 170px;
+    color: #9D9090;
+}
+#intro2 p{
+    position: absolute;
+    z-index: 5;
+    font-size: 15px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 170px;
+    color: #9D9090;
+}
+#intro3 p{
+    position: absolute;
+    z-index: 3;
+    font-size: 13px;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 389px;
+    margin-left: 26px;
+    color: #9D9090;
+}
+
+
+#coeur img{
+    width: 90px;
+    position: absolute;
+    z-index: 4;
+    margin-left: 63px;
+    margin-top: 20px;
+}
+
+#inscription{
+padding-top: 100px;
+text-align: center;
+color: #9D9090;
+font-size: 18px;
+font-family: Arial;
+
+}
+
+#barre {
+margin-top: 480px;
+width: 100%;
+border:1px solid #ddd;
+}
+
+#envoyer{
+    margin-left: 45px;
+}
+
+@media (min-width: 768px) {
+  .responsive-dialog {
+    width: 600px;
+    margin: 30px auto;
+  }
+  .responsive-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+  }
+  .responsive-sm {
+    width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .responsive-lg {
+    width: 900px;
+  }
+}
+
+@media (min-width: 932px) {
+  .responsive-lg {
+    width: 660px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 761px) {
+ 
+#titre {
+    margin-left: 35px;
+    font-size: 16px;
+  }
+#custom{
+height:90px;
+background-color: rgb(249, 86, 86);
+}
+#titre1{
+  padding-top: 0px;
+}
+  #intro p {
+    color:grey;
+     margin-top: 35px;
+    margin-left: 30px;
+    font-size: 9px;
+  }
+
+#intro2 p {
+    color:grey;
+     margin-top: 43px;
+    margin-left: 30px;
+    font-size: 9px;
+  }
+
+   #intro3 p{
+   
+    margin-top: 195px;
+    font-size: 5px;
+    margin-left: 10px;
+}
+
+ #coeur img {
+    width: 5%;
+    display: block;
+    margin-top: 53px;
+    margin-left: 7px;
+   
+ }
+
+ #inscription{
+
+font-size: 15px;
+margin-top: -50px;
+
+}
+
+.formulaire {
+
+ text-align: center;
+ padding-top: -50px;
+}
+
+#envoyer {
+margin-left: 1px;
+}
+
+#barre {
+border:1px solid #ddd;
+z-index: 2;
+margin-left: 0.5px;
+margin-top: 215px;
+width: 100%;
+
+}
+
+#bas {
+   position: absolute;
+  }
+
+
+}
+
+
+
+@media screen and (min-width: 761px) {
+ 
+#titre {
+    margin-left: 150px;
+    font-size: 20px;
+  }
+
+  #intro p {
+    color:grey;
+     margin-top: 25px;
+    margin-left: 150px;
+    font-size: 15px;
+  }
+
+#intro2 p {
+    color:grey;
+     margin-top: 40px;
+    margin-left: 150px;
+    font-size: 15px;
+  }
+
+  #intro3 p{
+   
+    margin-top: 455px;
+    margin-left: 115px;
+    
+}
+
+ #coeur img {
+    width: 7%;
+    display: block;
+    margin-top: 34px;
+    margin-left: 50px;
+   
+ }
+ #bas{
+position: fixed;
+bottom:0;
+margin-bottom:0;
+width: 100%;
+
+}
+}
+
+#bas {
+height: 50px;
+width: 100%;
+background-color: #F2F2F2;
+text-align: center;
+color: #A4A4A4;
+margin-top: 15px;
+text-decoration: none;
+list-style-type:none;
+
+}
+#bas li {
+padding-top: 4px;
+}

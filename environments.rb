@@ -1,5 +1,3 @@
-set :database, "sqlite3:donnees_db.sqlite3"
-
 configure :development do
  set :database, "sqlite3:donnees_db.sqlite3"
  set :show_exceptions, true

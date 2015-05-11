@@ -3,9 +3,6 @@ require 'shotgun'
 require 'sinatra/activerecord'
 require './environments'
 
-set :database, 'sqlite3:yolo_db.sqlite3'
-
-
 class Yolo < ActiveRecord::Base
 end
 

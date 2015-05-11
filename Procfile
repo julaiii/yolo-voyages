@@ -1,1 +1,1 @@
-web: bundle exec ruby sinatra.rb -p $PORT
+web: bundle exec ruby yolo.rb -p $PORT
